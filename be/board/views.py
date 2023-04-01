@@ -19,7 +19,7 @@ def board_details(request, **kwargs):
 
 @api_view(['POST'])
 def board_actions(request):
-    board = None
+    serializer = None
     if request.method == 'POST':
         # board = Board.objects.create(
         #     title = request.data['title'],
