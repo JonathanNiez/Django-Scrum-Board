@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\School Activities\My First Python\Django-Scrum-BoardV2\venv"
+VIRTUAL_ENV="C:\Users\IT Laboratory\Desktop\WS101\Django-Scrum-Board\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
